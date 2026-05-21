@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 import { SiteLayout } from "@/components/SiteLayout";
 import { listAssessments } from "@/lib/assessments.functions";
 
-export const Route = createFileRoute("/_authenticated/history")({
+export const Route = createFileRoute("/_authenticated/history/")({
   head: () => ({
     meta: [
       { title: "Your history — DiabetesRisk" },
